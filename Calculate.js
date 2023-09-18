@@ -11,7 +11,9 @@ subLength('summer', 'm'); // returns 2
 subLength('digitize', 'i'); // returns 0
 subLength('cheesecake', 'k'); // returns 0
 */
+//codecademy测试
 
+//这个是我写的
 const subLength = (string, char) => {
   let index = [];
   for( i=0; i < string.length; i++) {
@@ -32,3 +34,28 @@ const subLength = (string, char) => {
 }
 
 console.log(subLength('uncopyrightable', 'u'));
+
+//这个是答案写的
+const subLength = (str, char) => {
+  let charCount = 0; //加了计数器，很好用
+  let len = -1;
+  
+  for (let i=0; i<str.length; i++) {
+    if (str[i] == char) {
+      charCount++;
+      if (charCount > 2) {
+        return 0;
+      } //如果有三个相同的，就返回0
+      if (len == -1) {
+        len = i;
+      } else {
+        len = i - len + 1 //如果只有一个相同的，就不进里了
+      }
+    }
+  }
+  if (charCount < 2) {
+    return 0;
+  }
+
+  return len;
+}; //看懂了，但感觉写的还没我好。。。
