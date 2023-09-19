@@ -1,5 +1,5 @@
 //一个验证信用卡号是否符合标准的作业
-//算法： Luhn Algorithm
+//算法： Luhn Algorithm https://content.codecademy.com/PRO/independent-practice-projects/credit-card-checker/diagrams/cc%20validator%20diagram%201.svg?_gl=1*oduut1*_ga*MTc2MDYyODY3NS4xNjg2ODk3NzY2*_ga_3LRZM6TM9L*MTY5NTA4NTQxMy4xNTIuMS4xNjk1MDg1NDI2LjQ3LjAuMA..
 // All valid credit card numbers
 const valid1 = [4, 5, 3, 9, 6, 7, 7, 9, 0, 8, 0, 1, 6, 8, 0, 8];
 const valid2 = [5, 5, 3, 5, 7, 6, 6, 7, 6, 8, 7, 5, 1, 4, 3, 9];
