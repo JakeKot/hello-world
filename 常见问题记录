@@ -1,0 +1,3 @@
+使用Node js时，无法运行js文件：
+解决：https://blog.csdn.net/sleepwalker_1992/article/details/81029380
+不要回车，直接输入node XXX.js就可以
